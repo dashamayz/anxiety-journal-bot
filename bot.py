@@ -7,7 +7,7 @@ from datetime import datetime
 
 API_TOKEN = os.getenv('API_TOKEN')
 
-bot = Bot(token=7533510582:AAG57QLCTjCNVzSs6kc00YgeH1sWLbrY9QA)
+bot = Bot(token="7533510582:AAG57QLCTjCNVzSs6kc00YgeH1sWLbrY9QA")
 dp = Dispatcher(bot)
 scheduler = AsyncIOScheduler()
 
