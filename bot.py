@@ -23,7 +23,7 @@ async def id_cmd(message: types.Message):
 
 # === 🔹 Рассылка по времени ===
 
-CHAT_ID = int(os.getenv('CHAT_ID', ''))  # сюда нужно подставить свой chat_id в Render
+# CHAT_ID = int(os.getenv('CHAT_ID', ''))  # сюда нужно подставить свой chat_id в Render
 
 async def send_morning_message():
     try:
