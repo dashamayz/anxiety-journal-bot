@@ -15,7 +15,8 @@ from apscheduler.schedulers.asyncio import AsyncIOScheduler\
 from datetime import datetime, time\
 import asyncio\
 \
-API_TOKEN = '7533510582:AAG57QLCTjCNVzSs6kc00YgeH1sWLbrY9QA'\
+import os
+API_TOKEN = os.getenv('API_TOKEN')\
 \
 logging.basicConfig(level=logging.INFO)\
 \
